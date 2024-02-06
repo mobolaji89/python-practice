@@ -35,3 +35,27 @@ print(f"I drive a fast {transportation[3].title()}")
 print(f"I need to move some furniture using the {transportation[4].title()}")
 
 
+# Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
+
+guests = ['Barack Obama','Michael Jordan','Joe Montana','Snoop Dogg','Stephen Curry']
+print(f"I would like to invite you to dinner {guests[0].title()}")
+print(f"I would like to invite you to dinner {guests[1].title()}")
+print(f"I would like to invite you to dinner {guests[2].title()}")
+print(f"I would like to invite you to dinner {guests[3].title()}")
+print(f"I would like to invite you to dinner {guests[4].title()}")
+
+# You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+# Add a print() call at the end of your program, stating the name of the guest who can’t make it.
+# Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
+# Print a second set of invitation messages, one for each person who is still in your list.
+
+print(f"Unfortunately, {guests[1].title()} cannot attend my dinner.")
+
+guests[1] = "Scottie Pippen"
+
+print(f"I would like to invite you to dinner {guests[0].title()}")
+print(f"I would like to invite you to dinner {guests[1].title()}")
+print(f"I would like to invite you to dinner {guests[2].title()}")
+print(f"I would like to invite you to dinner {guests[3].title()}")
+print(f"I would like to invite you to dinner {guests[4].title()}")
+
